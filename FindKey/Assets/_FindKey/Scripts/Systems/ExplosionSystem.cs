@@ -1,0 +1,46 @@
+﻿using AP.FindKey.Common;
+using RH.Utilities.ComponentSystem;
+using UnityEngine;
+
+namespace AP.FindKey.Systems
+{
+    public class ExplosionSystem : BaseSystem
+    {
+        private Collider[] _colliders = new Collider[30];
+        private int _layerMask;
+
+        protected override void Init()
+        {
+            _layerMask = 1 << LayerMask.NameToLayer("Default");
+            GlobalEvents.ExplosionApproved.AddListener(Explode);
+        }
+
+        public override void Dispose() =>
+            GlobalEvents.ExplosionApproved.RemoveListener(Explode);
+
+        private void Explode(Vector3 at)
+        {
+            var collidersCount = FindColliders(at);
+            ApplyExplosionForce(at, collidersCount);
+            UpdateTryCount();
+        }
+
+        private int FindColliders(Vector3 at)
+        {
+            int collidersCount =
+                Physics.OverlapSphereNonAlloc(at, Settings.Instance.ExplosionRadius, _colliders, _layerMask);
+
+            return collidersCount;
+        }
+
+        private void ApplyExplosionForce(Vector3 at, int collidersCount)
+        {
+            for (int i = 0; i < collidersCount; i++)
+                _colliders[i].attachedRigidbody
+                    .AddExplosionForce(Settings.Instance.ExplosionForce, at,
+                        Settings.Instance.ExplosionRadius, 1, ForceMode.Force);
+        }
+
+        private static void UpdateTryCount() => GameData.Instance.ExplosionTryCount++;
+    }
+}
