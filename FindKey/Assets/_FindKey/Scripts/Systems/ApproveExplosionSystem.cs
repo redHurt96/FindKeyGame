@@ -1,4 +1,5 @@
 ﻿using AP.FindKey.Common;
+using AP.FindKey.MonoBehaviours;
 using RH.Utilities.ComponentSystem;
 using UnityEngine;
 
@@ -12,10 +13,14 @@ namespace AP.FindKey.Systems
         public override void Dispose() => 
             GlobalEvents.ExplosionIntent.RemoveListener(TryApproveExplosion);
 
-        private void TryApproveExplosion(Vector3 point)
+        private void TryApproveExplosion(GameObject at)
         {
-            if (GameData.Instance.ExplosionTryCount < Settings.Instance.ExplosionTryCount)
-                GlobalEvents.ExplosionApproved?.Invoke(point);
+            if (at.GetComponent<Key>() != null)
+                GlobalEvents.KeyFounded?.Invoke();
+            else if (GameData.Instance.ExplosionTryCount < Settings.Instance.ExplosionTryCount)
+                GlobalEvents.ExplosionApproved?.Invoke(at.transform.position);
+            else
+                GlobalEvents.LevelFailed?.Invoke();
         }
     }
 }

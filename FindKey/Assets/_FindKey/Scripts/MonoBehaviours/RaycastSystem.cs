@@ -1,7 +1,7 @@
 ﻿using AP.FindKey.Common;
 using UnityEngine;
 
-namespace AP.FindKey.Systems
+namespace AP.FindKey.MonoBehaviours
 {
     public class RaycastSystem : MonoBehaviour
     {
@@ -27,7 +27,7 @@ namespace AP.FindKey.Systems
             var ray = _camera.ScreenPointToRay(Input.mousePosition);
 
             if (Physics.Raycast(ray, out var hit, 20f, _layerMask))
-                GlobalEvents.ExplosionIntent?.Invoke(hit.point);
+                GlobalEvents.ExplosionIntent?.Invoke(hit.collider.gameObject);
         }
     }
 }

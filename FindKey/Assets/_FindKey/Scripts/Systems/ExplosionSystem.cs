@@ -1,4 +1,5 @@
 ﻿using AP.FindKey.Common;
+using AP.FindKey.MonoBehaviours;
 using RH.Utilities.ComponentSystem;
 using UnityEngine;
 
@@ -36,9 +37,10 @@ namespace AP.FindKey.Systems
         private void ApplyExplosionForce(Vector3 at, int collidersCount)
         {
             for (int i = 0; i < collidersCount; i++)
-                _colliders[i].attachedRigidbody
-                    .AddExplosionForce(Settings.Instance.ExplosionForce, at,
-                        Settings.Instance.ExplosionRadius, 1, ForceMode.Force);
+            {
+                if (_colliders[i].TryGetComponent<IExploded>(out IExploded iExploded))
+                    iExploded.Explode(at);
+            }
         }
 
         private static void UpdateTryCount() => GameData.Instance.ExplosionTryCount++;
