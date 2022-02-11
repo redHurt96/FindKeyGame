@@ -11,6 +11,8 @@ namespace AP.FindKey.Common
 
         private void Start()
         {
+            Application.targetFrameRate = 60;
+
             _settings.CreateInstance();
             _levelPool.CreateInstance();
 
