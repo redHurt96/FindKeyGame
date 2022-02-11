@@ -1,4 +1,5 @@
-﻿using RH.Utilities.SingletonAccess;
+﻿using AP.FindKey.Common;
+using RH.Utilities.SingletonAccess;
 using UnityEngine;
 
 namespace RoofRace.Infrastructure
@@ -16,6 +17,8 @@ namespace RoofRace.Infrastructure
         {
             _current++;
             _current %= _levelsPrefabs.Length;
+
+            GameData.Instance.LevelNumber++;
         }
     }
 }

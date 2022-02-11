@@ -1,3 +1,4 @@
+using AP.FindKey.Analytics;
 using AP.FindKey.Systems;
 using RoofRace.Infrastructure;
 using UnityEngine;
@@ -38,6 +39,9 @@ namespace AP.FindKey.Common
             new HideFinishUiSystem();
             new ShowFailUiSystem();
             new HideFailUiSystem();
+
+            new LevelFinishAnalyticsSender();
+            new LevelFailAnalyticsSender();
         }
     }
 }

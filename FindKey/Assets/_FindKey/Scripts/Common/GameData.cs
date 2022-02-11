@@ -8,5 +8,6 @@ namespace AP.FindKey.Common
         public int ExplosionTryCount = 0;
 
         public GameObject CurrentLevel;
+        public int LevelNumber { get; set; }
     }
 }
