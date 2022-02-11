@@ -11,13 +11,26 @@ namespace AP.FindKey.Common
 
         private void Start()
         {
+            IncreaseTargetFrameRate();
+            InitSettings();
+            CreateGameData();
+            CreateSystems();
+        }
+
+        private static void IncreaseTargetFrameRate() => 
             Application.targetFrameRate = 60;
 
+        private void InitSettings()
+        {
             _settings.CreateInstance();
             _levelPool.CreateInstance();
+        }
 
+        private static void CreateGameData() => 
             new GameData();
 
+        private static void CreateSystems()
+        {
             new CreateLevelSystem();
             new ApproveExplosionSystem();
             new ExplosionSystem();
