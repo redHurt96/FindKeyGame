@@ -9,10 +9,13 @@ namespace RoofRace.Infrastructure
     {
         [SerializeField] private GameObject[] _levelsPrefabs;
 
-        private int _current;
+        private int _current = 0;
 
         public GameObject Current => _levelsPrefabs[_current];
 
+        public void ClearIndex() => 
+            _current = 0;
+        
         public void IncreaseIndex()
         {
             _current++;

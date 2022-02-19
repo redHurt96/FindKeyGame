@@ -11,6 +11,8 @@ namespace AP.FindKey.Systems
         {
             GlobalEvents.GoToNextLevel.AddListener(LoadNextScene);
             GlobalEvents.RestartLevel.AddListener(LoadCurrentScene);
+
+            LevelPool.Instance.ClearIndex();
             LoadCurrentScene();
         }
 

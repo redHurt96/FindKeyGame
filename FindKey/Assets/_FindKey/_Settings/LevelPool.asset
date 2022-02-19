@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: LevelPool
   m_EditorClassIdentifier: 
   _levelsPrefabs:
-  - {fileID: 928332771050084877, guid: 02983482b4a0a2a478327c112335917a, type: 3}
   - {fileID: 928332771050084877, guid: 8d999cb2d1f95b04a99b22e049ae50af, type: 3}
-  - {fileID: 928332771050084877, guid: 5e4e259545c2ae9428cdd735642410c5, type: 3}
-  - {fileID: 928332771050084877, guid: 6bd820944ee6bba418945972ccf3e57c, type: 3}
+  - {fileID: 928332771050084877, guid: c897f94b3872c8849b62838b7ea0e696, type: 3}

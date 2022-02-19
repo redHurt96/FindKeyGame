@@ -7,7 +7,7 @@ namespace AP.FindKey.Systems
 {
     public class ExplosionSystem : BaseSystem
     {
-        private Collider[] _colliders = new Collider[30];
+        private Collider[] _colliders = new Collider[50];
         private int _layerMask;
 
         protected override void Init()
@@ -38,7 +38,7 @@ namespace AP.FindKey.Systems
         {
             for (int i = 0; i < collidersCount; i++)
             {
-                if (_colliders[i].TryGetComponent<IExploded>(out IExploded iExploded))
+                if (_colliders[i].TryGetComponent(out IExploded iExploded))
                     iExploded.Explode(at);
             }
         }
