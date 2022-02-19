@@ -92,9 +92,6 @@ GameObject:
   - component: {fileID: 4825384655727747499}
   - component: {fileID: 5202948875805083856}
   - component: {fileID: 2245835612226046108}
-  - component: {fileID: 66315846386552547}
-  - component: {fileID: 8764026923277407355}
-  - component: {fileID: 289247615593084717}
   m_Layer: 0
   m_Name: Room3_Cube.071
   m_TagString: Untagged
@@ -166,49 +163,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &66315846386552547
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672900936924652413}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &8764026923277407355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672900936924652413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &289247615593084717
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 672900936924652413}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.05040286, y: 0.029682918, z: 0.026814085}
-  m_Center: {x: -0.0018866544, y: 0.0023247313, z: -0.0018726855}
 --- !u!1 &809500424957635336
 GameObject:
   m_ObjectHideFlags: 0
@@ -464,9 +418,6 @@ GameObject:
   - component: {fileID: 8231775226732464302}
   - component: {fileID: 243406592460385633}
   - component: {fileID: 2675204091224876065}
-  - component: {fileID: 6747402146287201157}
-  - component: {fileID: 6070039750386164782}
-  - component: {fileID: 4737923945572935684}
   m_Layer: 0
   m_Name: Room3_Cylinder.013
   m_TagString: Untagged
@@ -540,49 +491,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &6747402146287201157
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435677017467515978}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6070039750386164782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435677017467515978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &4737923945572935684
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1435677017467515978}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.02, y: 0.019999998, z: 0.019999998}
-  m_Center: {x: 0.000012183642, y: 0.00027193682, z: -0.003253623}
 --- !u!1 &1491583335586874110
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,7 +502,6 @@ GameObject:
   - component: {fileID: 1439349437597472576}
   - component: {fileID: 3716502676012360441}
   - component: {fileID: 2234324679236792225}
-  - component: {fileID: 8364197286647540103}
   m_Layer: 0
   m_Name: Room3_group1649958311
   m_TagString: Untagged
@@ -665,19 +572,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8364197286647540103
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491583335586874110}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.014000009, y: 0.0008000019, z: 0.016700007}
-  m_Center: {x: -4.656613e-10, y: 2.910383e-10, z: 0}
 --- !u!1 &2683867570820925922
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,9 +583,6 @@ GameObject:
   - component: {fileID: 3290113658492007700}
   - component: {fileID: 2823853514231514955}
   - component: {fileID: 2466530713800648791}
-  - component: {fileID: 4531595275038776581}
-  - component: {fileID: 8154030028866010491}
-  - component: {fileID: 3024512012053003115}
   m_Layer: 0
   m_Name: Room3_group1714428766
   m_TagString: Untagged
@@ -764,49 +655,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &4531595275038776581
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2683867570820925922}
-  serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &8154030028866010491
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2683867570820925922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &3024512012053003115
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2683867570820925922}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0008000004, y: 0.002000001, z: 0.002199999}
-  m_Center: {x: 4.3655746e-11, y: -0.000072232244, z: 1.1641532e-10}
 --- !u!1 &2888408137821966050
 GameObject:
   m_ObjectHideFlags: 0
@@ -899,9 +747,6 @@ GameObject:
   - component: {fileID: 343109592205415590}
   - component: {fileID: 7241494273990797615}
   - component: {fileID: 1094968606487987368}
-  - component: {fileID: 6273567326612751017}
-  - component: {fileID: 5780770275742135936}
-  - component: {fileID: 1303745297697280665}
   m_Layer: 0
   m_Name: Room3_Cube.072
   m_TagString: Untagged
@@ -972,49 +817,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &6273567326612751017
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3543249652287154610}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5780770275742135936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3543249652287154610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &1303745297697280665
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3543249652287154610}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.0021134964, y: 0.0019728865, z: 0.0031092563}
-  m_Center: {x: -0.000014341674, y: -0.000028643772, z: -0.0005954172}
 --- !u!1 &3869893266305645946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,9 +870,6 @@ GameObject:
   - component: {fileID: 7854108070101892408}
   - component: {fileID: 49816628651698842}
   - component: {fileID: 8047611044467096180}
-  - component: {fileID: 1729149919404003165}
-  - component: {fileID: 534815103735354724}
-  - component: {fileID: 5532787486060794484}
   m_Layer: 0
   m_Name: Room3_48.001
   m_TagString: Untagged
@@ -1145,50 +944,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1729149919404003165
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4042753451716576890}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1863240009346805116, guid: 9b6b34728c8661d468dec6e9b567a5ba, type: 3}
---- !u!54 &534815103735354724
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4042753451716576890}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5532787486060794484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4042753451716576890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 534815103735354724}
-  _additionalExplosionForce: {fileID: 0}
 --- !u!1 &4787750857724344656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,9 +955,6 @@ GameObject:
   - component: {fileID: 4216397169531397846}
   - component: {fileID: 8279885942512761350}
   - component: {fileID: 5043038992388474390}
-  - component: {fileID: 1531277478056165111}
-  - component: {fileID: 7115712598174165326}
-  - component: {fileID: 3390442509302575643}
   m_Layer: 0
   m_Name: Room3_Cylinder.012
   m_TagString: Untagged
@@ -1273,49 +1025,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1531277478056165111
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4787750857724344656}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &7115712598174165326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4787750857724344656}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &3390442509302575643
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4787750857724344656}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.036010068, y: 0.03601006, z: 0.019757248}
-  m_Center: {x: -0.00000005122289, y: 0.0000008158387, z: 0.00000053038826}
 --- !u!1 &5339597132573089717
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,10 +1239,6 @@ GameObject:
   - component: {fileID: 6002667076110727811}
   - component: {fileID: 7375761715838865242}
   - component: {fileID: 1101341015543277041}
-  - component: {fileID: 1485575531750355066}
-  - component: {fileID: 5338671452472331247}
-  - component: {fileID: 5633740430761805153}
-  - component: {fileID: 1813989004147580714}
   m_Layer: 0
   m_Name: Room3_group1462626064.001
   m_TagString: Untagged
@@ -1606,86 +1311,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1485575531750355066
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194178713639668124}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5338671452472331247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194178713639668124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!64 &5633740430761805153
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194178713639668124}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 7140331859823149315, guid: 9b6b34728c8661d468dec6e9b567a5ba, type: 3}
---- !u!59 &1813989004147580714
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7194178713639668124}
-  m_ConnectedBody: {fileID: 1880259784627815405}
-  m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: -0.01, z: 0}
-  m_Axis: {x: 0, y: 0, z: 1}
-  m_AutoConfigureConnectedAnchor: 0
-  m_ConnectedAnchor: {x: -0.00027775258, y: 0.014461065, z: -0.006521249}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: 0
-    max: 0
-    bounciness: 0
-    bounceMinVelocity: 0.2
-    contactDistance: 0
-  m_BreakForce: 700
-  m_BreakTorque: 700
-  m_EnableCollision: 1
-  m_EnablePreprocessing: 1
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!1 &7252234815149771359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1697,9 +1322,6 @@ GameObject:
   - component: {fileID: 6826963461961806385}
   - component: {fileID: 3970406218542294063}
   - component: {fileID: 1292596078084368015}
-  - component: {fileID: 4249926666844637072}
-  - component: {fileID: 6377789882472058167}
-  - component: {fileID: 6589773577344777715}
   m_Layer: 0
   m_Name: Room3_Cube.029
   m_TagString: Untagged
@@ -1773,50 +1395,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &4249926666844637072
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7252234815149771359}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &6377789882472058167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7252234815149771359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!64 &6589773577344777715
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7252234815149771359}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6774067410168143436, guid: 9b6b34728c8661d468dec6e9b567a5ba, type: 3}
 --- !u!1 &7557476263735606566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1910,9 +1488,6 @@ GameObject:
   - component: {fileID: 6924824505353632255}
   - component: {fileID: 5892863386604805551}
   - component: {fileID: 132443721151221443}
-  - component: {fileID: 1880259784627815405}
-  - component: {fileID: 5514894771695033833}
-  - component: {fileID: 2919785543241244700}
   m_Layer: 0
   m_Name: Room3_Cube.006_Cube.001
   m_TagString: Untagged
@@ -1987,50 +1562,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &1880259784627815405
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7977705350024834968}
-  serializedVersion: 2
-  m_Mass: 10
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &5514894771695033833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7977705350024834968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!64 &2919785543241244700
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7977705350024834968}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -7858883515454155149, guid: 9b6b34728c8661d468dec6e9b567a5ba, type: 3}
 --- !u!1 &8584851565555499336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,9 +1573,6 @@ GameObject:
   - component: {fileID: 5423285642399669489}
   - component: {fileID: 2312281394686307812}
   - component: {fileID: 4151001582142900783}
-  - component: {fileID: 5474236163164496469}
-  - component: {fileID: 8753277002684223895}
-  - component: {fileID: 819740215719306503}
   m_Layer: 0
   m_Name: Room3_Cylinder.011
   m_TagString: Untagged
@@ -2115,49 +1643,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &5474236163164496469
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8584851565555499336}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &8753277002684223895
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8584851565555499336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}
---- !u!65 &819740215719306503
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8584851565555499336}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.036010068, y: 0.03601006, z: 0.019757248}
-  m_Center: {x: -0.00000005122289, y: 0.0000008158387, z: 0.00000053038826}
 --- !u!1 &8689134360211593527
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,9 +1736,6 @@ GameObject:
   - component: {fileID: 6648451416416847060}
   - component: {fileID: 2217582632332140928}
   - component: {fileID: 6210881074301721791}
-  - component: {fileID: 5411080907417733593}
-  - component: {fileID: 2825981192859388915}
-  - component: {fileID: 4812302440530223702}
   m_Layer: 0
   m_Name: Room3_bookcaseClosedDoors
   m_TagString: Untagged
@@ -2325,46 +1807,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5411080907417733593
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8889232794181716246}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.004, y: 0.0084999995, z: 0.0024999997}
-  m_Center: {x: 0, y: 0.00024263769, z: -0.000065068416}
---- !u!54 &2825981192859388915
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8889232794181716246}
-  serializedVersion: 2
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &4812302440530223702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8889232794181716246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cd51cf0bdf3420dadf9b3bd5b255676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _rigidbody: {fileID: 0}
-  _additionalExplosionForce: {fileID: 0}

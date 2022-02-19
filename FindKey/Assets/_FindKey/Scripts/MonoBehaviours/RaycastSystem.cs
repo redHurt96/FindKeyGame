@@ -26,7 +26,7 @@ namespace AP.FindKey.MonoBehaviours
         {
             var ray = _camera.ScreenPointToRay(Input.mousePosition);
 
-            if (Physics.Raycast(ray, out var hit, 20f, _layerMask))
+            if (Physics.Raycast(ray, out var hit, 50f, _layerMask))
                 GlobalEvents.ExplosionIntent?.Invoke(hit.collider.gameObject);
         }
     }
