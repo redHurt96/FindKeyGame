@@ -7,5 +7,6 @@ namespace AP.FindKey.Common
     {
         public GameObject FinishUi;
         public GameObject FailUi;
+        public GameObject LevelUi;
     }
 }

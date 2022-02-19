@@ -39,6 +39,8 @@ namespace AP.FindKey.Common
             new HideFinishUiSystem();
             new ShowFailUiSystem();
             new HideFailUiSystem();
+            new ShowLevelUiSystem();
+            new HideLevelUiSystem();
 
             new LevelFinishAnalyticsSender();
             new LevelFailAnalyticsSender();

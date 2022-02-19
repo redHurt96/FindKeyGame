@@ -8,13 +8,19 @@ namespace AP.FindKey.MonoBehaviours
         [SerializeField] private Vector3 _direction;
         [SerializeField] private float _force = 100;
 
-        public void Explode(Vector3 from) => 
+        public void Explode(Vector3 from)
+        {
+            AssignRigidbody();
             _rigidbody.AddForce(_direction * _force, ForceMode.Force);
+        }
 
         [ContextMenu(nameof(AssignRigidbody))]
-        private void AssignRigidbody() =>
-            _rigidbody = GetComponent<Rigidbody>();
-        
+        private void AssignRigidbody()
+        {
+            if (_rigidbody == null)
+                _rigidbody = GetComponent<Rigidbody>();
+        }
+
         [ContextMenu(nameof(Explode))]
         private void Explode() => 
             Explode(Vector3.zero);

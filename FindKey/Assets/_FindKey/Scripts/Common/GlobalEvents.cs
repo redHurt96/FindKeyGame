@@ -11,5 +11,6 @@ namespace AP.FindKey.Common
         public static UnityEvent GoToNextLevel = new UnityEvent();
         public static UnityEvent LevelFailed = new UnityEvent();
         public static UnityEvent RestartLevel = new UnityEvent();
+        public static UnityEvent TryCountChanged = new UnityEvent();
     }
 }

@@ -918,6 +918,10 @@ PrefabInstance:
       propertyPath: _additionalExplosionForce
       value: 
       objectReference: {fileID: 8713722865902094274}
+    - target: {fileID: 7306637504281784916, guid: 33d76362c47087f46aa224192ac461c7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7325473214957322863, guid: 33d76362c47087f46aa224192ac461c7, type: 3}
       propertyPath: m_Mass
       value: 20

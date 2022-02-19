@@ -15,9 +15,9 @@ namespace AP.FindKey.Systems
 
         private void TryApproveExplosion(GameObject at)
         {
-            if (at.GetComponent<Key>() != null)
+            if (at.GetComponent<Key>() != null || at.layer == LayerMask.NameToLayer("Key"))
                 GlobalEvents.KeyFounded?.Invoke();
-            else if (GameData.Instance.ExplosionTryCount < Settings.Instance.ExplosionTryCount)
+            else if (GameData.Instance.ExplosionTryCount + 1 < Settings.Instance.ExplosionTryCount)
                 GlobalEvents.ExplosionApproved?.Invoke(at.transform.position);
             else
                 GlobalEvents.LevelFailed?.Invoke();

@@ -11,7 +11,7 @@ namespace AP.FindKey.MonoBehaviours
         private void Start()
         {
             _camera = Camera.main;
-            _layerMask = 1 << LayerMask.NameToLayer("Default");
+            _layerMask = 1 << LayerMask.NameToLayer("Default") | 1 << LayerMask.NameToLayer("Key");
         }
 
         private void Update()
